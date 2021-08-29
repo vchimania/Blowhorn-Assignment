@@ -43,8 +43,8 @@ const Features=()=>{
                     <div className='caption'>
                       <h4>{d.name}</h4>
                       <p>{d.job}</p>
-                      <img src={d.twitter} className='rounded-circle bg col-md-3'/>
-                      <img src={d.github} className='rounded-circle bg col-md-3'/>
+                      <img src={d.twitter} alt='...' className='rounded-circle bg col-md-3'/>
+                      <img src={d.github} alt='...' className='rounded-circle bg col-md-3'/>
                     </div>
                   </div>
                 </div>
