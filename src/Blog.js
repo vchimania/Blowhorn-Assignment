@@ -15,21 +15,21 @@ const Blog=()=>{
        </div>
        <div id="blog" className="card-group card-columns">
   <div className="card">
-    <img className="card-img-top" src={i1} alt="Card image cap"/>
+    <img className="card-img-top" src={i1} aria-hidden alt="card"/>
     <div className="card-body a">
       <h5 className="card-title title">Refreshing Design</h5>
       <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     </div>
   </div>
   <div className="card">
-    <img className="card-img-top" src={i2} alt="Card image cap"/>
+    <img className="card-img-top" src={i2} aria-hidden alt="Card image cap"/>
     <div className="card-body b">
       <h5 className="card-title title">Healthier Lifestyle</h5>
       <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
     </div>
   </div>
   <div className="card">
-    <img className="card-img-top" src={i3} alt="Card image cap"/>
+    <img className="card-img-top" src={i3} aria-hidden alt="Card image cap"/>
     <div className="card-body c">
       <h5 className="card-title title">Gaming Evolution</h5>
       <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -40,21 +40,21 @@ const Blog=()=>{
 {/* ----------- */}
 <div className="card-deck">
   <div className="card">
-    <img className="card-img-top" src={i6} alt="Card image cap"/>
+    <img className="card-img-top" src={i6} aria-hidden alt="Card image cap"/>
     <div className="card-body">
       <h5 className="card-title">Best Workstations of the Year</h5>
       <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     </div>
   </div>
   <div className="card">
-    <img className="card-img-top" src={i5} alt="Card image cap"/>
+    <img className="card-img-top" src={i5} aria-hidden alt="Card image cap"/>
     <div className="card-body">
       <h5 className="card-title">Eating for Productivity</h5>
       <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
     </div>
   </div>
   <div className="card">
-    <img className="card-img-top i4" src={i4} alt="Card image cap"/>
+    <img className="card-img-top i4" src={i4} aria-hidden alt="Card image cap"/>
     <div className="card-body">
       <h5 className="card-title">A Design Mind-Set</h5>
       <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
